@@ -1,0 +1,144 @@
+.container {
+    margin: 0 auto;
+    padding:0 20px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 3rem;
+width:100%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.247);
+    font-family: "Assistant";
+}
+
+.rowContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 2% auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "AssistantR";
+    margin: 10px 0;
+    width: calc(33.33% - 20px);
+}
+
+.row:last-child .item {
+    width: calc(50% - 20px);
+}
+
+.image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    padding: 5px;
+
+}
+
+.text {
+    font-size: 16px;
+    text-align: center;
+}
+
+/* מתחת ל-350px */
+@media (max-width: 350px) {
+    .title {
+        font-size: 1.8rem;
+    }
+    .item, .row:last-child .item {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+
+/* 350-450px */
+@media (min-width: 350px) and (max-width: 450px) {
+    .title {
+        font-size: 2rem;
+    }
+
+
+    .item, .row:last-child .item {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+
+/* 450-550px */
+@media (min-width: 450px) and (max-width: 550px) {
+    .title {
+        font-size: 2.2rem;
+    }
+}
+
+/* 550-650px */
+@media (min-width: 550px) and (max-width: 650px) {
+    .title {
+        font-size: 2.4rem;
+    }
+}
+
+/* 650-750px */
+@media (min-width: 650px) and (max-width: 750px) {
+    .title {
+        font-size: 2.6rem;
+    }
+}
+
+/* 750-850px */
+@media (min-width: 750px) and (max-width: 850px) {
+    .title {
+        font-size: 2.7rem;
+    }
+}
+
+/* 850-950px */
+@media (min-width: 850px) and (max-width: 950px) {
+    .title {
+        font-size: 2.8rem;
+    }
+}
+
+/* 950-1050px */
+@media (min-width: 950px) and (max-width: 1050px) {
+    .title {
+        font-size: 2.9rem;
+    }
+}
+
+/* 1050-1150px */
+@media (min-width: 1050px) and (max-width: 1150px) {
+    .title {
+        font-size: 3rem;
+    }
+}
+
+/* 1150-1250px */
+@media (min-width: 1150px) and (max-width: 1250px) {
+    .title {
+        font-size: 3rem;
+    }
+}
+
+/* מעל 1250px */
+@media (min-width: 1250px) {
+    .title {
+        font-size: 3rem;
+    }
+}
+
