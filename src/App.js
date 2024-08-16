@@ -10,6 +10,7 @@ import BasicAccordion from './components/questions/Akordion';
 import FirstScreen from './screens/FirstScreen';
 import SecondScreen from './screens/SecondScreen';
 import WorkflowProcess from './components/steps/Steps';
+import ByMe from './components/ByMe/ByMe';
 
 function App() {
 
@@ -44,6 +45,7 @@ function App() {
   <EventMenu/>
   <Here/>
   <BasicAccordion/>
+  <ByMe/>
   </div>
   </>
 }
