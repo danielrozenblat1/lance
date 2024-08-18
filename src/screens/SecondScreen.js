@@ -63,7 +63,7 @@ const SecondScreen=()=>{
         );
     }
     return <>
- <ImageGrid images={images} />
+ <ImageGrid useSecondArray={false} />
     </>
 }
 export default SecondScreen

@@ -39,11 +39,13 @@ function App() {
   <div class="app">
 <NavBarNew/>
   <FirstScreen scrolled={scrolled}/>
-  <SecondScreen/>
-  <WorkflowProcess/>
-  <Menu/>
-  <EventMenu/>
   <Here/>
+
+  <Menu/>
+  <SecondScreen/>
+  <EventMenu/>
+  <ImageGrid useSecondArray={true}/>
+  <WorkflowProcess/>
   <BasicAccordion/>
   <ByMe/>
   </div>
