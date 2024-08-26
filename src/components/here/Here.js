@@ -22,11 +22,11 @@ const Here = () => {
         });
       },[])
     const items = [
-        { image: enough, text: 'כמות אוכל מספקת' },
-        { image: design, text: 'הגשה נכונה' },
-        { image: fresh, text: 'טריות חומרי הגלם' },
-        { image: onTime, text: 'עמידה בזמנים' },
-        { image: cook, text: 'עיצוב' },
+        { image: enough, text: 'איכות וטריות' },
+        { image: design, text: 'שפע' },
+        { image: fresh, text: 'שירות אדיב ' },
+        { image: onTime, text: 'מקצועיות' },
+        { image: cook, text: 'יחודיות' },
     ];
 
     return (

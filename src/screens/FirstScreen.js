@@ -22,8 +22,8 @@ const FirstScreen = (props) => {
       <div id="confettiReward" className={styles.confettiContainer} />
       <div className={styles.contentContainer}>
         <h1 className={props.scrolled ? styles.titleP : styles.title}>מזל טוב!</h1>
-        <div className={styles.description}>חוגגים אירוע מסויים וצריכים קייטרינג?</div>
-        <div className={styles.description}>הכירו את חברת הקייטרינג עם סגנון ההגשה שעוד לא נראה בארץ</div>
+        <div className={styles.description}>מתכננים חגיגה ומחפשים קייטרינג ?</div>
+        <div className={styles.description}>הכירו את לאנס , שירות מסוג אחר המתאפיין בסטייל מיוחד המשלב נגיעות אירופיות שעוד לא נראה כמוהו </div>
         <div className={styles.center}><img className={styles.image} src={lance} alt="לאנס - lance"/></div>
       </div>
     </div>

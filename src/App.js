@@ -11,6 +11,7 @@ import FirstScreen from './screens/FirstScreen';
 import SecondScreen from './screens/SecondScreen';
 import WorkflowProcess from './components/steps/Steps';
 import ByMe from './components/ByMe/ByMe';
+import BrunchAccordionExample from './components/ways/Ways';
 
 function App() {
 
@@ -46,8 +47,10 @@ function App() {
   <EventMenu/>
   <ImageGrid useSecondArray={true}/>
   <WorkflowProcess/>
+  <BrunchAccordionExample/>
   <BasicAccordion/>
   <ByMe/>
+  
   </div>
   </>
 }

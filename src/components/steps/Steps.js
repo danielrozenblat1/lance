@@ -6,12 +6,12 @@ const steps = [
   { 
     number: 1,
     title: "שאלות ראשוניות", 
-    description: "שאלות לגבי מספר מוזמנים, שעה, מיקום, סגנון הגשה, סוג הארוחה, ודרישות תזונה מיוחדות."
+    description: "שאלות לגבי כמות מוזמנים, מיקום האירוע, שעת הארוחה , סגנון הגשה.."
   },
   { 
     number: 2,
     title: "הצגת האופציות", 
-    description: "1) מגשי אירוח - בחירה מתפריט קיים. 2) שולחן בופה - כולל שירות במקום, עיצוב ותפעול."
+    description: "1) מגשי אירוח - בחירת מגשים מהתפריט.\n2) שולחן בופה - כולל שירות במקום, עיצוב ותפעול."
   },
   { 
     number: 3,
@@ -86,8 +86,8 @@ const WorkflowProcess = () => {
 
   return (
     <div className={styles.container}>
-      <h3 className={styles.description}>אתה בטח שואל איך נדייק את כמות האוכל לאירוע שלך</h3>
-      <h2 className={styles.title}>אז.. זה עובד ככה!</h2>
+      <h3 className={styles.description}>אתה בטח שואל איך כל זה קורה?</h3>
+      <h2 className={styles.title}>אז זה עובד ככה!</h2>
       <div className={styles.workflow}>
         {steps.map((step) => (
           <WorkflowStep

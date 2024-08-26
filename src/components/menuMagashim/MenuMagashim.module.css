@@ -70,7 +70,9 @@ margin:0 auto 1%;
 
 .itemHeader {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-direction: row;
   margin-bottom: 0.3rem;
 }
 
@@ -85,8 +87,8 @@ margin:0 auto 1%;
   color: #8b4503;
   font-family: "Assistant";
   font-size: 0.9rem;
+  white-space: nowrap;
 }
-
 .description {
   font-size: 0.9rem;
   color: #555555;

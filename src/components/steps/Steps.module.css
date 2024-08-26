@@ -62,6 +62,7 @@
 .stepDescription {
   color: #333;
   font-size: 14px;
+  white-space: pre-line;
   line-height: 1.4;
   margin: 0;
 }
