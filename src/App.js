@@ -41,13 +41,14 @@ function App() {
 <NavBarNew/>
   <FirstScreen scrolled={scrolled}/>
   <Here/>
-
+  <ImageGrid useSecondArray={true}/>
+  <BrunchAccordionExample/>
   <Menu/>
   <SecondScreen/>
-  <EventMenu/>
-  <ImageGrid useSecondArray={true}/>
+  {/* <EventMenu/> */}
+
   <WorkflowProcess/>
-  <BrunchAccordionExample/>
+
   <BasicAccordion/>
   <ByMe/>
   

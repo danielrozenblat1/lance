@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './MenuMagashim.module.css';
 import Button from '../Button/Button';
+import ImageGrid from '../imagegrid/ImageGrid';
 
 const Menu = () => {
   return <>
@@ -17,7 +18,7 @@ const Menu = () => {
           <MenuItem name="בורקיטס פינוקים (20/30 יח')" price="180/265 ש״ח" description="איטלקי<br />סביח" />
           <MenuItem name="ברוסקטה (24 יח')" price="117/198/332 ש״ח" description="סביצ'ה<br />איטלקית<br />צרפתית<br />דודו" />
           <MenuItem name="פחזניות מלוחות (30 יח')" price="219/253 ש״ח" description="מוס שמנת סלומון<br />קאטלן<br />מוס טונה" />
-          <MenuItem name="קישים מיני (24 יח')" price="192 ש״ח" description="תרד<br />פטריות<br />בטטה<br />ברוקולי<br />שרי<br />בצל" />
+          <MenuItem name="קישים מיני (24 יח')" price="192 ש״ח" description="תרד,פטריות,בטטה,ברוקולי,שרי,בצל" />
           <MenuItem name="מיני פיש בורגר (12 יח')" price="226 ש״ח" />
           <MenuItem name="מיני פריקסה (24 יח')" price="192 ש״ח" />
           <MenuItem name="חטיפי מיז או בושס (24 יח')" price="186 ש״ח" description="מיקס של טעמים" />
@@ -59,6 +60,7 @@ const Menu = () => {
    
     </div>
     <Button text="מעניין אותי לשמוע עוד" message="היי לאנס, מעניין אותי לשמוע עוד על תפריט המגשים"/>
+    <ImageGrid/>
   </>;
 };
 
