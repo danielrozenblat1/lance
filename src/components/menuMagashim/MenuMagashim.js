@@ -5,7 +5,7 @@ import ImageGrid from '../imagegrid/ImageGrid';
 
 const Menu = () => {
   return <>
-    <div className={styles.gridContainer}>
+    <div className={styles.gridContainer} id="תפריט מגשים">
       <h1 className={styles.title}>תפריט מגשי אירוח</h1>
       <div className={styles.container}>
         <div className={styles.section}>

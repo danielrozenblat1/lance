@@ -113,7 +113,7 @@ export default function BasicAccordion() {
     >
       {/* Center parent container */}
      
-    <div className={styles.title} id="שאלות ותשובות" itemProp="mainEntity" itemScope itemType="https://schema.org/WebPage">זמן לענות על השאלות שלכם</div>
+    <div className={styles.title} id="שאלות תשובות" itemProp="mainEntity" itemScope itemType="https://schema.org/WebPage">זמן לענות על השאלות שלכם</div>
       <DropdownAccordion title="אתם מגיעים לכל מקום בארץ?" content="כן , השירות בפריסה ארצית." />
       <DropdownAccordion title="איך אני יודע להזמין את הכמות שמתאימה לאירוע שלי ?" content="ובכן ישלנו שיטה לחשב כמויות בערך שתתאים בצורה הכי טובה , לאחר שאלות ההתאמה נבנה ביחד את התפריט המתאים ביותר עבורכם." />
       <DropdownAccordion title="אתם כשרים?" content="אין לנו עדיין תעודת כשרות אך הכל כשר כהלכה'מאחר ואנחנו עסק בייתי אין אנחנו זכאיות לתעודה , ובכל זאת כל תהליך העבודה שלנו מתבצע בצורה הכי כשרה שיש , משתמשות אך ורק בחומרי גלם כשרים עם תעודות, ובהפרדה מלאה." />

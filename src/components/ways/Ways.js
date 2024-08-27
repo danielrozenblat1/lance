@@ -104,7 +104,7 @@ export default function FoodAccordionExample() {
     };
 
   return<>
-  <div className={styles.header}>סגנונות האירועים שלנו</div>
+  <div className={styles.header} id="סגנונות אירועים">סגנונות האירועים שלנו</div>
     <BrunchAccordion {...brunchData} />
   <BrunchAccordion {...dinnerData} />
   </>
