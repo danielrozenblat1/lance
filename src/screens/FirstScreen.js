@@ -23,7 +23,8 @@ const FirstScreen = (props) => {
       <div className={styles.contentContainer}>
         <h1 className={props.scrolled ? styles.titleP : styles.title}>מזל טוב!</h1>
         <div className={styles.description}>מתכננים חגיגה ומחפשים קייטרינג ?</div>
-        <div className={styles.description}>הכירו את לאנס , שירות מסוג אחר המתאפיין בסטייל מיוחד המשלב נגיעות אירופיות שעוד לא נראה כמוהו </div>
+        <div className={styles.description}>לאחר הרבה מחשבה ורצון להגיש לכם חוויה חדשה ומיוחדת החלטנו לשלב את שתי האהבות שלנו שהן המטבח והטבע ולהקים את לאנס .
+        </div>
         <div className={styles.center}><img className={styles.image} src={lance} alt="לאנס - lance"/></div>
       </div>
     </div>
