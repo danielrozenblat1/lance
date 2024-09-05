@@ -12,6 +12,7 @@ import SecondScreen from './screens/SecondScreen';
 import WorkflowProcess from './components/steps/Steps';
 import ByMe from './components/ByMe/ByMe';
 import BrunchAccordionExample from './components/ways/Ways';
+import TermsButton from './components/takanon/Takanon';
 
 function App() {
 
@@ -50,6 +51,7 @@ function App() {
   <WorkflowProcess/>
 
   <BasicAccordion/>
+  <TermsButton/>
   <ByMe/>
   
   </div>
