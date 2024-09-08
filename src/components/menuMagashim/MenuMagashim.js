@@ -60,6 +60,12 @@ const Menu = () => {
    
     </div>
     <Button text="מעניין אותי לשמוע עוד" message="היי לאנס, מעניין אותי לשמוע עוד על תפריט המגשים"/>
+    <div className={styles.bold}>בנוסף לתפריט המגוון שלנו המורכב ממנות ביס מפוצצות טעמים ומאכלים בסגנון צרפתי איטלקי המשולבות כמובן לטעמים הישראלים. החלום שלנו היה לשלב בין המטבח הצרפתי הקלאסי לבין המטבח הים תיכוני העממי .</div>
+    <div className={styles.bold}>יצרנו עבורכם שולחן בופה מעוצב בסטייל ובאווירה קסומה שאי אפשר להוריד ממנו את העיניים. 
+הכל מוגש בעיצוב מיוחד במינו באווירת חיק הטבע.
+על השולחן שלנו תמצאו מנות מגוונות ועשירות העשויות 100% עבודת יד .</div>
+    <div className={styles.bold}>לבינתיים, אתם מוזמנים להתרשם וכשיגיע הרגע הנכון ביחד נבנה את התפריט המדויק ביותר שמותאם בדיוק אליכם ולאירוע שלכם.</div>
+    <div className={styles.bold}>רוצים להרשים את האורחים שלכם באירוע הבא? תכתבו לנו ונחזור אליכם עם פרטים🫶🏼.</div>
     <ImageGrid/>
   </>;
 };

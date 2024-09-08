@@ -96,7 +96,15 @@ margin:0 auto 1%;
   font-style: italic;
   font-family: "AssistantR";
 }
-
+.bold {
+  font-size: 1.4rem;
+  color: #000000;
+  margin:2% auto;
+width:50%;
+direction: rtl;
+text-align: center;
+  font-family: "AssistantR";
+}
 /* מתחת ל-350px */
 @media (max-width: 350px) {
   .gridContainer {
@@ -107,6 +115,10 @@ margin:0 auto 1%;
   }
   .sectionTitle {
     font-size: 1.2rem;
+  }
+  .bold {
+    font-size: 1.1rem;
+  width:95%;
   }
 }
 
@@ -121,6 +133,10 @@ margin:0 auto 1%;
   .sectionTitle {
     font-size: 1.3rem;
   }
+  .bold {
+    font-size: 1.15rem;
+  width:90%;
+  }
 }
 
 /* 450-550px */
@@ -133,6 +149,10 @@ margin:0 auto 1%;
   }
   .sectionTitle {
     font-size: 1.4rem;
+  }
+  .bold {
+    font-size: 1.2rem;
+  width:70%;
   }
 }
 
@@ -159,6 +179,10 @@ margin:0 auto 1%;
   }
   .section{
     margin:0.5rem
+  }
+  .bold {
+    font-size: 1.25rem;
+  width:60%;
   }
 }
 
