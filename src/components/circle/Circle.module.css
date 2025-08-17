@@ -1,0 +1,80 @@
+.circle {
+    width: 200px;
+    height: 120px;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50%;
+  display: flex;
+    margin: 10px auto;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    width:60%;
+    margin:0 auto;
+    align-items: center;
+}
+.description{
+    font-family: "AssistantR";
+    font-size: 1.4rem;
+    text-align: center;
+    margin:1% auto;
+    color:rgb(38, 19, 6);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (max-width: 450px){
+
+
+    .circle {
+        width: 150px;
+        height: 150px;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 50%;
+      display: flex;
+        margin: 20px auto;
+    }
+    .icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+   width:80%;
+    }
+    .description{
+        font-family: "AssistantR";
+        font-size: 1.1rem;
+        text-align: center;
+        margin:1% auto;
+        color:rgb(38, 19, 6);
+    }
+
+
+}
+@media only screen and (min-width: 450px) and (max-width: 650px){
+
+
+    .circle {
+        width: 100px;
+        height: 100px;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 50%;
+      display: flex;
+        margin: 2% auto;
+    }
+    .icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .description{
+        font-family: "AssistantR";
+        font-size: 1.2rem;
+        text-align: center;
+        margin:1% auto;
+        color:rgb(38, 19, 6);
+    }
+
+
+}
